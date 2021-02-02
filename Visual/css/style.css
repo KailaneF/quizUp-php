@@ -1,0 +1,163 @@
+.bg-container{
+	background-image: url("../imagens/background.png" ) ;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+}
+
+@font-face{
+	font-family: "Caveat-Regular";
+    src: url("../fontes/Caveat-Regular.ttf");
+   
+   
+}
+@font-face{
+    font-family: "Lato";
+	src: url("../fontes/Lato.ttf");
+}
+
+
+.form-control{
+	border-bottom: 1px solid black !important;
+    border: none ;
+	border-radius: 0 !important;
+}
+
+.inicio{
+    font-family:"Caveat-Regular" !important;
+    color:black;
+    font-size: 5rem;
+    text-align: center;
+
+}
+.inicio-2{
+    font-family:"Caveat-Regular" !important;
+    color:lightcoral;
+    font-size: 4rem;
+
+}
+h4.inicio-3{
+    font-family: "Caveat-Regular" !important;
+    font-size: 2rem;
+     }
+ h1.display-4{
+    font-family: "Caveat-Regular" !important;
+    margin-top: 2rem; 
+    font-size: 5rem;
+ }    
+.card-1{
+    width: 17rem;
+}
+.card{
+	width:20rem;
+}
+.c-1{
+	margin-top:1rem;
+}
+
+ .d-1{
+	padding:2rem;
+ }
+ .cc-1 {
+    
+ 		width:28rem;
+ }
+ .p-1{
+    left:7rem;
+    size:8rem;
+    
+ }
+ .p-2{
+    left:26rem;
+    size:8rem;
+    
+
+}
+.p-3{
+    right:9rem;
+    size:4rem;
+}
+.p-4{
+    left:9rem;
+    size:7rem;
+
+}
+p.card-text-1{
+    color:white;
+    font-family:"Lato" ;
+    margin:2rem;
+   
+
+}
+div.col.p-4.text-center{
+    left:-1rem;
+    margin-top: 2rem;
+}
+div.col.text-center{
+    left:-2rem;
+}
+
+ #body-row {
+    margin-left:0;
+    margin-right:0;
+}
+#sidebar-container {
+    min-height: 100vh;   
+    background-color: #333;
+    padding: 0;
+}
+
+/* Sidebar sizes when expanded and expanded */
+.sidebar-expanded {
+    width: 230px;
+}
+.sidebar-collapsed {
+    width: 60px;
+}
+
+/* Menu item*/
+#sidebar-container .list-group a {
+    height: 50px;
+    color: white;
+}
+
+/* Submenu item*/
+#sidebar-container .list-group .sidebar-submenu a {
+    height: 45px;
+    padding-left: 30px;
+}
+.sidebar-submenu {
+    font-size: 0.9rem;
+}
+
+/* Separators */
+.sidebar-separator-title {
+    background-color: #333;
+    height: 35px;
+}
+.sidebar-separator {
+    background-color: #333;
+    height: 25px;
+}
+.logo-separator {
+    background-color: #333;    
+    height: 60px;
+}
+
+/* Closed submenu icon */
+#sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
+  content: " \f0d7";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+/* Opened submenu icon */
+#sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
+  content: " \f0da";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
